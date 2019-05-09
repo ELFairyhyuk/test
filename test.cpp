@@ -7,7 +7,6 @@ int main(){
     int *p=(int *)malloc(5);
     p[0]=0;
     p[1]=1;
-
     p[2]=2;
     p[3]=8;
     p[4]=9;
