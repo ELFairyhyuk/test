@@ -14,6 +14,5 @@ int main(){
     int *ret=std::find(p,p+5,8);
     cout<<"find "<<p[ret-p]<<"p address "<<ret-p<<"ret address "<<ret<<endl;
     cout<<"find "<<*ret<<endl;
-    cout<<"test "<<*ret<<endl;
     return 0;
 }
