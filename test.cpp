@@ -10,7 +10,7 @@ int main(){
     p[2]=2;
     p[3]=8;
     p[4]=9;
-//test
+
     int *ret=std::find(p,p+5,8);
     cout<<"find "<<p[ret-p]<<"p address "<<ret-p<<"ret address "<<ret<<endl;
     cout<<"find "<<*ret<<endl;
